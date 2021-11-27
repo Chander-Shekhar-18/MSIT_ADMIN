@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491504445106",
+    "project_id": "msit-admin",
+    "storage_bucket": "msit-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491504445106:android:30014216c0116bb5710bab",
+        "android_client_info": {
+          "package_name": "com.example.msit_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491504445106-2dgfgc1bmenqjscm2rpk1j0eadpc9131.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8d0p5Phm9YbxThyaPXNdSzBtmVs49hHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491504445106-2dgfgc1bmenqjscm2rpk1j0eadpc9131.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
