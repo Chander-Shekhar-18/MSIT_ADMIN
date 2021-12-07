@@ -9,11 +9,12 @@ import android.view.View;
 import com.example.msit_admin.DeleteNotice.DeleteNoticeActivity;
 import com.example.msit_admin.DeleteNotice.UploadNotice;
 import com.example.msit_admin.faculty.UpdateFaculty;
+import com.example.msit_admin.placement.PlacementActivity;
 import com.google.android.material.card.MaterialCardView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private MaterialCardView cardViewNotice, addGalleryImage, addEBook, faculty, deleteNotice;
+    private MaterialCardView cardViewNotice, addGalleryImage, addEBook, faculty, deleteNotice, addPlacement;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,12 +26,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addEBook = findViewById(R.id.addEBook);
         faculty = findViewById(R.id.addFaculty);
         deleteNotice = findViewById(R.id.deleteNotice);
+        addPlacement = findViewById(R.id.addPlacementData);
 
         cardViewNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
         addEBook.setOnClickListener(this);
         faculty.setOnClickListener(this);
         deleteNotice.setOnClickListener(this);
+        addPlacement.setOnClickListener(this);
 
     }
 
@@ -56,6 +59,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.deleteNotice:
                 Intent intent4 = new Intent(MainActivity.this, DeleteNoticeActivity.class);
                 startActivity(intent4);
+                break;
+            case R.id.addPlacementData:
+                Intent intent5 = new Intent(MainActivity.this, PlacementActivity.class);
+                startActivity(intent5);
                 break;
         }
     }

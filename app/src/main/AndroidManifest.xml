@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MSIT_ADMIN">
-        <activity android:name=".DeleteNotice.DeleteNoticeActivity"></activity>
+        <activity
+            android:name=".placement.PlacementActivity"
+            android:exported="false" />
+        <activity android:name=".DeleteNotice.DeleteNoticeActivity" />
         <activity android:name=".faculty.UpdateTeacher" />
         <activity android:name=".faculty.AddTeacher" />
         <activity android:name=".faculty.UpdateFaculty" />

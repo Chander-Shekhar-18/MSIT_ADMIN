@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/drawable/circle_orange.xml" value="0.2484375" />
+        <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/drawable/circle_yellow.xml" value="0.2484375" />
         <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/layout/activity_add_teacher.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/layout/activity_placement.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/layout/activity_update_faculty.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Chander Shekhar/AndroidStudioProjects/MSIT_ADMIN/app/src/main/res/layout/activity_upload_pdf.xml" value="0.23229166666666667" />
       </map>
     </option>
   </component>
